@@ -50,7 +50,7 @@ Build a three-node Kubernetes cluster on your own laptop, deploy an NGINX web ap
 ```
 ┌──────────────────────── Your Windows laptop ────────────────────────┐
 │                                                                     │
-│  ┌─────────────┐      ┌──── Docker Desktop (WSL 2) ─────────────┐  │
+│  ┌─────────────┐      ┌──── Docker Desktop (WSL 2) ─────────────┐   │
 │  │ PowerShell  │      │  each node is one container              │  │
 │  │ kubectl     │ ───► │                                          │  │
 │  │ kind        │      │  ┌────────────────────────────────────┐  │  │
