@@ -166,7 +166,7 @@ Open Docker Desktop and wait until the Engine is running. Then, in a **new Power
 
 *Time: about 5 min*
 
-### 2.1 Check Docker &nbsp;`[ ]`
+### 2.1 Check Docker &nbsp;
 
 ```powershell
 docker version
