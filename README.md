@@ -224,7 +224,7 @@ A short file tells kind to build **one control-plane node and two worker nodes**
 
 *Time: about 5 min*
 
-### 3.1 Create a lab folder &nbsp;`[ ]`
+### 3.1 Create a lab folder &nbsp;
 
 ```powershell
 mkdir k8s-lab
