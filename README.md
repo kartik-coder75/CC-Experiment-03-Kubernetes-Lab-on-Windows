@@ -203,7 +203,7 @@ Client Version: v1.37.x
 Kustomize Version: v5.x.x
 ```
 
-### 2.4 Check kind &nbsp;`[ ]`
+### 2.4 Check kind &nbsp;
 
 ```powershell
 kind version
