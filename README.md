@@ -189,7 +189,7 @@ Hello from Docker!
 This message shows that your installation appears to be working correctly.
 ```
 
-### 2.3 Check kubectl &nbsp;`[ ]`
+### 2.3 Check kubectl &nbsp;
 
 ```powershell
 kubectl version --client
