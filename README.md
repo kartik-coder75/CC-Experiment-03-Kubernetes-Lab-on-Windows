@@ -241,7 +241,7 @@ cd k8s-lab
 - **What it does:** Moves PowerShell into the lab folder. Run all the following commands from here.
 - **You should see:** The prompt now ends in `\k8s-lab>`.
 
-### 3.3 Open the configuration file &nbsp;`[ ]`
+### 3.3 Open the configuration file &nbsp;
 
 ```powershell
 notepad kind-config.yaml
