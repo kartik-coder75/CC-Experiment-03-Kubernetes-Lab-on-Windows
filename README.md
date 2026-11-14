@@ -106,7 +106,7 @@ You need four tools: **WSL 2** (the Linux layer), **Docker Desktop** (runs the n
 
 *Time: about 20 min*
 
-### 1.1 Install WSL 2 &nbsp;`[ ]`
+### 1.1 Install WSL 2 &nbsp;
 
 > Run PowerShell **as Administrator**.
 
