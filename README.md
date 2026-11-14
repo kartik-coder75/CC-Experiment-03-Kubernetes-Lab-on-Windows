@@ -175,7 +175,7 @@ docker version
 - **What it does:** Shows the versions of Docker's client and server.
 - **You should see:** Both a **Client** section and a **Server** section. If the Server part shows an error, Docker Desktop is not running yet.
 
-### 2.2 Test a container &nbsp;`[ ]`
+### 2.2 Test a container &nbsp;
 
 ```powershell
 docker run hello-world
