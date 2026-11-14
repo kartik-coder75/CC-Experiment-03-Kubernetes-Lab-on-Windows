@@ -130,7 +130,7 @@ wsl --install
 
 > ⚠️ **Important:** If Docker Desktop says WSL 2 or virtualization is missing, finish the WSL setup and restart Windows. If needed, turn on CPU virtualization (Intel VT-x or AMD-V/SVM) in your BIOS/UEFI settings.
 
-### 1.3 Install kubectl &nbsp;`[ ]`
+### 1.3 Install kubectl &nbsp;
 
 ```powershell
 winget install -e --id Kubernetes.kubectl
