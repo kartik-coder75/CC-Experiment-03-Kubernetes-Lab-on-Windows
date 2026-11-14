@@ -141,7 +141,7 @@ winget install -e --id Kubernetes.kubectl
 
 > 💡 **First time using winget?** It may ask you to accept the source agreements. Type `Y` and press Enter.
 
-### 1.4 Install kind &nbsp;`[ ]`
+### 1.4 Install kind &nbsp;
 
 ```powershell
 winget install -e --id Kubernetes.kind
