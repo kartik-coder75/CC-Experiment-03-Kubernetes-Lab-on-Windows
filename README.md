@@ -117,7 +117,7 @@ wsl --install
 - **What it does:** Installs Windows Subsystem for Linux (WSL 2), which Docker Desktop runs on.
 - **You should see:** Download and install progress, then a request to restart. **Restart Windows** when asked.
 
-### 1.2 Install Docker Desktop &nbsp;`[ ]`
+### 1.2 Install Docker Desktop &nbsp;
 
 **Do this:**
 
