@@ -310,7 +310,7 @@ Creating cluster "kind" ...
 Set kubectl context to "kind-kind"
 ```
 
-### 4.2 Check the cluster connection &nbsp;`[ ]`
+### 4.2 Check the cluster connection &nbsp;
 
 ```powershell
 kubectl cluster-info --context kind-kind
@@ -324,7 +324,7 @@ Kubernetes control plane is running at https://127.0.0.1:<port>
 CoreDNS is running at https://127.0.0.1:<port>/api/v1/...
 ```
 
-### 4.3 Check node status &nbsp;`[ ]`
+### 4.3 Check node status &nbsp;
 
 ```powershell
 kubectl get nodes
