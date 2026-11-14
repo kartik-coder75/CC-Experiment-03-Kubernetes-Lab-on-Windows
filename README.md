@@ -340,7 +340,7 @@ kind-worker          Ready    <none>          90s   v1.37.0
 kind-worker2         Ready    <none>          90s   v1.37.0
 ```
 
-### 4.4 Check the Docker containers &nbsp;`[ ]`
+### 4.4 Check the Docker containers &nbsp;
 
 ```powershell
 docker ps
@@ -349,7 +349,7 @@ docker ps
 - **What it does:** Shows the running Docker containers. Each one is a kind node.
 - **You should see:** Three containers named `kind-control-plane`, `kind-worker` and `kind-worker2` in the NAMES column.
 
-### 4.5 Check the Kubernetes system Pods &nbsp;`[ ]`
+### 4.5 Check the Kubernetes system Pods &nbsp;
 
 ```powershell
 kubectl get pods -n kube-system -o wide
