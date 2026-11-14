@@ -232,7 +232,7 @@ mkdir k8s-lab
 
 - **What it does:** Creates a folder to keep the lab files in. If it already exists, just continue.
 
-### 3.2 Enter the folder &nbsp;`[ ]`
+### 3.2 Enter the folder &nbsp;
 
 ```powershell
 cd k8s-lab
