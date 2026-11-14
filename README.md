@@ -250,7 +250,7 @@ notepad kind-config.yaml
 - **What it does:** Opens Notepad with a new file called `kind-config.yaml`.
 - **You should see:** A question asking whether to create a new file. Click **Yes**.
 
-### 3.4 Paste the configuration and save &nbsp;`[ ]`
+### 3.4 Paste the configuration and save &nbsp;
 
 **Do this:**
 
@@ -272,7 +272,7 @@ nodes:
 
 > ⚠️ **Use spaces, not tabs.** If Notepad offers a *Save as type*, choose **All files** so the file does not become `kind-config.yaml.txt`.
 
-### 3.5 Check that the file exists &nbsp;`[ ]`
+### 3.5 Check that the file exists &nbsp;
 
 ```powershell
 Get-ChildItem
@@ -289,7 +289,7 @@ One command builds the whole cluster. Then you check that all three nodes are he
 
 *Time: about 10 min*
 
-### 4.1 Create the cluster &nbsp;`[ ]`
+### 4.1 Create the cluster &nbsp;
 
 ```powershell
 kind create cluster --config kind-config.yaml
