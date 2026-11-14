@@ -368,7 +368,7 @@ Now ask Kubernetes to run a real app: three copies of the NGINX web server, spre
 
 *Time: about 10 min*
 
-### 5.1 Create three NGINX replicas &nbsp;`[ ]`
+### 5.1 Create three NGINX replicas &nbsp;
 
 ```powershell
 kubectl create deployment web --image=nginx --replicas=3
@@ -381,7 +381,7 @@ kubectl create deployment web --image=nginx --replicas=3
 deployment.apps/web created
 ```
 
-### 5.2 Check the Deployment &nbsp;`[ ]`
+### 5.2 Check the Deployment &nbsp;
 
 ```powershell
 kubectl get deployments
