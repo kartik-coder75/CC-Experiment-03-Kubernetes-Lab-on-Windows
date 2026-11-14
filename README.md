@@ -150,7 +150,7 @@ winget install -e --id Kubernetes.kind
 - **What it does:** Installs `kind` (Kubernetes IN Docker), which creates a Kubernetes cluster using Docker containers.
 - **You should see:** `Successfully installed` at the end.
 
-### 1.5 Reopen PowerShell &nbsp;`[ ]`
+### 1.5 Reopen PowerShell &nbsp;
 
 ```powershell
 exit
