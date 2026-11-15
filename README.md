@@ -452,7 +452,7 @@ kubectl scale deployment web --replicas=6
 deployment.apps/web scaled
 ```
 
-### 6.2 Check the six Pods &nbsp;`[ ]`
+### 6.2 Check the six Pods &nbsp;
 
 ```powershell
 kubectl get pods -o wide
