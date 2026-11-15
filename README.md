@@ -395,7 +395,7 @@ NAME   READY   UP-TO-DATE   AVAILABLE   AGE
 web    3/3     3            3           45s
 ```
 
-### 5.3 See where the Pods are running &nbsp;`[ ]`
+### 5.3 See where the Pods are running &nbsp;
 
 ```powershell
 kubectl get pods -o wide
