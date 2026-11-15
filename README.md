@@ -490,7 +490,15 @@ kubectl get pods
 
 ---
 
+## What You Have Learned
 
+You installed the tools, created a three-node local cluster, deployed NGINX, scaled the application and saw Kubernetes replace a deleted Pod automatically.
+
+- ✅ **Installed the tools:** WSL 2, Docker Desktop, kubectl and kind on Windows.
+- ✅ **Built a cluster:** One control-plane node and two workers, all running as Docker containers.
+- ✅ **Looked inside:** Saw the API server, scheduler, etcd and kube-proxy running as Pods.
+- ✅ **Deployed an app:** Ran three NGINX Pods and saw which node each one was placed on.
+- ✅ **Scaled and healed:** Went from 3 to 6 Pods and watched a deleted Pod come back by itself.
 
 ---
 
