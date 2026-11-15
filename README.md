@@ -439,7 +439,7 @@ Change how many copies you want, then delete one on purpose and watch Kubernetes
 
 *Time: about 10 min*
 
-### 6.1 Scale from three Pods to six &nbsp;`[ ]`
+### 6.1 Scale from three Pods to six &nbsp;
 
 ```powershell
 kubectl scale deployment web --replicas=6
