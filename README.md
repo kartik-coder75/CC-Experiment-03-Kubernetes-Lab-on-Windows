@@ -470,7 +470,7 @@ kubectl get pods -o wide
 
 > 💡 **Watch it happen live:** run `kubectl get pods -w` in a **second** PowerShell window before Step 6.3. Press **Ctrl + C** to stop watching.
 
-### 6.3 Delete one Pod for the test &nbsp;`[ ]`
+### 6.3 Delete one Pod for the test &nbsp;
 
 ```powershell
 kubectl delete pod <pod-name>
