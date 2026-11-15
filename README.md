@@ -479,7 +479,7 @@ kubectl delete pod <pod-name>
 - **What it does:** Deletes one Pod on purpose. Replace `<pod-name>` with a real `web` Pod name from Step 6.2.
 - **You should see:** A line confirming that the Pod was deleted.
 
-### 6.4 Confirm self-healing &nbsp;`[ ]`
+### 6.4 Confirm self-healing &nbsp;
 
 ```powershell
 kubectl get pods
