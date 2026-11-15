@@ -479,14 +479,6 @@ kubectl delete pod <pod-name>
 - **What it does:** Deletes one Pod on purpose. Replace `<pod-name>` with a real `web` Pod name from Step 6.2.
 - **You should see:** A line confirming that the Pod was deleted.
 
-### 6.4 Confirm self-healing &nbsp;
-
-```powershell
-kubectl get pods
-```
-
-- **What it does:** Checks that Kubernetes created a replacement Pod to bring the Deployment back to six replicas.
-- **You should see:** Six Pods again. The replacement has a **new name** and an AGE of only a few seconds.
 
 ---
 
