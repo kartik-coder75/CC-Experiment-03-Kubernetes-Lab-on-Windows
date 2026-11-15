@@ -548,7 +548,13 @@ Every command from Parts 1–6, in the order you used them.
 
 ---
 
+## Cleanup
 
+When you have finished the lab, you can remove the cluster and free up resources:
+
+```powershell
+kind delete cluster
+```
 
 ---
 
