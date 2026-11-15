@@ -420,7 +420,7 @@ web-6c8d9f7b54-t9s4d   1/1     Running   50s   10.244.1.3   kind-worker
 | `kind-worker` | |
 | `kind-worker2` | |
 
-### 5.4 Inspect a Pod *(optional)* &nbsp;`[ ]`
+### 5.4 Inspect a Pod *(optional)* &nbsp;
 
 ```powershell
 kubectl describe pod <pod-name>
