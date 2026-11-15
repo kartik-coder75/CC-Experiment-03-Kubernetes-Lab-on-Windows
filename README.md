@@ -502,7 +502,17 @@ You installed the tools, created a three-node local cluster, deployed NGINX, sca
 
 ---
 
+## Troubleshooting
 
+| What you see | What to do |
+|--------------|------------|
+| `Cannot connect to the Docker daemon` or `error during connect` | Docker Desktop isn't running. Open it and wait for **Engine running**. |
+| `kubectl` or `kind` is not recognized | Close every PowerShell window and open a new one (Step 1.5). |
+| WSL 2 or virtualization missing | Run `wsl --install` as Administrator and restart. Turn on virtualization in BIOS/UEFI. |
+| A node stays `NotReady` | Wait 1–2 minutes. Still stuck? Close other apps, run `kind delete cluster`, then repeat Step 4.1. |
+| A Pod shows `ImagePullBackOff` | No internet or a typo in the image name. `kubectl describe pod <pod-name>` shows the exact error. |
+| `error parsing kind-config.yaml` | The file has tabs or wrong spacing. Re-copy it exactly as shown in Step 3.4. |
+| Commands hang or behave oddly in Git Bash | Use PowerShell instead. |
 
 ---
 
