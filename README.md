@@ -558,7 +558,7 @@ kind delete cluster
 
 ---
 
-## My Notes
+
 
 <!-- Write your own observations, screenshots and results here -->
 
