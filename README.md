@@ -616,8 +616,8 @@ Every command from Steps 1–6, in the order used.
 ```text
 .
 ├── README.md
-├── kind-config.yaml
 ├── src/
+|   └── kind-config.yaml
 └── screenshots/
     ├── 01_Create_Cluster_Config_and_Build_Kind_Cluster.png
     ├── 02_Verify_Nodes_Containers_and_Deploy_NGINX.png
